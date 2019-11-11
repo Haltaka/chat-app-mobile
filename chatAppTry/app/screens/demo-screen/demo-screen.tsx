@@ -120,7 +120,7 @@ export const DemoScreen: React.FunctionComponent<DemoScreenProps> = props => {
   )
 
   return (
-    <View testID="DemoScreen" style={FULL}>
+    <View style={FULL}>
       <Wallpaper />
       <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
         <Header

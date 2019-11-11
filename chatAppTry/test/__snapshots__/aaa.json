@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "text": "Bbbbbbb",
+    "createdAt": "2019-11-11T07:57:04.923Z",
+    "user": { "_id": 1, "name": "Tyler", "avatar": "https://placeimg.com/140/140/any" }
+  },
+
+  {
+    "text": "Bbbbbbb",
+    "user": { "_id": 1 },
+    "createdAt": "2019-11-11T07:57:04.922Z",
+    "_id": "a51cd5cd-8b74-4a59-9df1-0328f282ac13"
+  },
+
+  {
+    "_id": "a51cd5cd-8b74-4a59-9df1-0328f282cc13",
+    "text": "Can you hear me_",
+    "createdAt": "2019-11-11T08:00:51.917Z",
+    "user": { "_id": 2, "name": "Bob", "avatar": "https://placeimg.com/140/140/any" }
+  }
+]

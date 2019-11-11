@@ -82,7 +82,7 @@ export const WelcomeScreen: React.FunctionComponent<WelcomeScreenProps> = props 
   ])
 
   return (
-    <View testID="WelcomeScreen" style={FULL}>
+    <View style={FULL}>
       <Wallpaper />
       <Screen style={CONTAINER} preset="scroll" backgroundColor={color.transparent}>
         <Header headerTx="welcomeScreen.poweredBy" style={HEADER} titleStyle={HEADER_TITLE} />
@@ -105,11 +105,16 @@ export const WelcomeScreen: React.FunctionComponent<WelcomeScreenProps> = props 
       <SafeAreaView style={FOOTER}>
         <View style={FOOTER_CONTENT}>
           <Button
-            testID="next-screen-button"
             style={CONTINUE}
             textStyle={CONTINUE_TEXT}
             tx="welcomeScreen.continue"
             onPress={nextScreen}
+          />
+          <Button
+            style={CONTINUE}
+            textStyle={CONTINUE_TEXT}
+            text="chat-screen"
+            onPress={() => props.navigation.navigate("chat")}
           />
         </View>
       </SafeAreaView>
